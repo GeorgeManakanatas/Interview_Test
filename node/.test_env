@@ -1,0 +1,10 @@
+# Environment
+NODE_ENV=test
+
+GET_NEW_PIC=online
+
+PORT=8001
+ALLOWED_ORIGINS=http://localhost:8080 https://localhost:8080
+
+DOG_URL=https://dog.ceo/api/breeds/image/random
+

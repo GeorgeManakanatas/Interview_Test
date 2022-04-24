@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test&&node app.js 2>> ./logs/ErrorLog.log 1>> ./logs/GeneralLog.log",
+    "start": "set NODE_ENV=default&&node app.js 2>> ./logs/ErrorLog.log 1>> ./logs/GeneralLog.log"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "helmet": "^4.6.0",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}

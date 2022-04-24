@@ -1,0 +1,1 @@
+A simple npm install and npm run start is all that is needed.
